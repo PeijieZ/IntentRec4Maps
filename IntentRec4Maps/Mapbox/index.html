@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Map route</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <script type="module" src="./index.ts"></script>
+</head>
+
+<body>
+  <div id="floating-panel">
+    <!-- <b>Start: </b>
+    <input type="text" id="start" placeholder="Enter start location" value="Victoria Station London">
+    <b>End 1: </b>
+    <input type="text" id="end1" placeholder="Enter end location 1" value="King's cross station London">
+    <b>End 2: </b>
+    <input type="text" id="end2" placeholder="Enter end location 2" value="Farringdon Station London"> -->
+
+    <button id="searchButton">Search Route</button>
+<!--     <div id="random-lat-lng">Latitude, Longitude: </div> -->
+  </div>
+
+  <div id="map"></div>
+
+  <div id="percentage-display">
+  <div id="resultsContainer" class="percentage-container"></div>
+</div>
+
+
+
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVS9S2Txb-yhzTW2YkB7ZSSIMUw5EIGsU&callback=initMap&v=weekly" defer></script>
+
+  
+
+</body>
+
+</html>
